@@ -38,7 +38,7 @@ class Solution
 	{Scanner in = new Scanner(System.in);
 		int a = in.nextInt();
 		int b = in.nextInt();
-		in.close();
+     	in.close();
 		
 		System.out.println(a+b);
 		System.out.println(a-b);
