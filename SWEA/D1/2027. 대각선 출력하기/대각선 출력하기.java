@@ -36,9 +36,18 @@ class Solution
 {
 	public static void main(String args[]) throws Exception
 	{
-		System.out.println("#++++");
-		System.out.println("+#+++");
-		System.out.println("++#++");
-		System.out.println("+++#+");
-		System.out.println("++++#");
-    }}
+		for(int i=1; i<=5; i++) {
+			for(int j=2; j<=i; j++) {
+				System.out.print("+");
+			}
+			for(int k=1; k<=i;) {
+				System.out.print("#");
+				break;
+			}
+			for(int l=4; l>=i; l--) {
+				System.out.print("+");
+			}
+			System.out.println(" ");
+		}
+	}
+}
